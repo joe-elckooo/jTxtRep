@@ -1,7 +1,8 @@
 # jTxtRep
 Find and replace a text string in a text file.
 
-# Usage:
+## Usage:
+```
  jTxtRep.exe "file name" [+ "file name" [+ ...]] [-cp:code] -s:"search string" -r:"replacement string" [-pn:prefix] [-sn:suffix] [-cs]
   -cp:code page number or code page name
    Example:
@@ -31,3 +32,4 @@ Find and replace a text string in a text file.
 
 Example:
  jTxtRep file1.txt file2.txt *.txt -s:text1 -r:text2
+```
