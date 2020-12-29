@@ -4,8 +4,8 @@ Find and replace a text string in a text file.
 ## Usage:
 ```
  jTxtRep.exe "file name" [+ "file name" [+ ...]] [-cp:code] -s:"search string" -r:"replacement string" [-pn:prefix] [-sn:suffix] [-cs]
-  -cp:code page number or code page name
-   
+  
+  -cp:code page number or code page name   
    Example:
     65001 or utf-8 (default)
     12000 or utf-32
@@ -15,6 +15,7 @@ Find and replace a text string in a text file.
     20866 or koi8-r
       ...
   -cs : case-sensitive (otherwise case-insensitive)
+  
   -pn:prefix : prefix for the new file name (default '_')
   -sn:suffix : suffix for the new file name
    Example: "name.ext -pn:f_ sn:_u" : "f_name_u.ext"
