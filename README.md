@@ -5,6 +5,7 @@ Find and replace a text string in a text file.
 ```
  jTxtRep.exe "file name" [+ "file name" [+ ...]] [-cp:code] -s:"search string" -r:"replacement string" [-pn:prefix] [-sn:suffix] [-cs]
   -cp:code page number or code page name
+   
    Example:
     65001 or utf-8 (default)
     12000 or utf-32
